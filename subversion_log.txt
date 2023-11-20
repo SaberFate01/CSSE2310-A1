@@ -1,0 +1,401 @@
+URL to view log online:
+https://source.eait.uq.edu.au/viewvc/csse2310-sem1-s4716841/trunk/a1/?view=log
+
+Retrieving logs at Thu Mar 23 20:24:05 AEST 2023
+------------------------------------------------------------------------
+r1 | uqpsutto | 2023-03-01 20:47:53 +1000 (Wed, 01 Mar 2023) | 1 line
+Changed paths:
+   A /play
+   A /prac
+   A /trunk
+   A /trunk/a1
+   A /trunk/a3
+   A /trunk/a4
+
+Initial repository structure
+
+
+------------------------------------------------------------------------
+r4 | s4716841 | 2023-03-05 01:09:35 +1000 (Sun, 05 Mar 2023) | 1 line
+Changed paths:
+   A /trunk/a1/test.c
+
+For testing purpose only
+
+Index: test.c
+ test.c |    9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+------------------------------------------------------------------------
+r5 | s4716841 | 2023-03-07 10:18:46 +1000 (Tue, 07 Mar 2023) | 1 line
+Changed paths:
+   A /trunk/a1/UQWordiply.c
+
+Created base file 070323 10:15AM
+
+Index: UQWordiply.c
+ UQWordiply.c |   29 +++++++++++++++++++++++++++++
+ 1 file changed, 29 insertions(+)
+
+------------------------------------------------------------------------
+r6 | s4716841 | 2023-03-07 16:18:04 +1000 (Tue, 07 Mar 2023) | 1 line
+Changed paths:
+   A /trunk/a1/Makefile
+   M /trunk/a1/UQWordiply.c
+
+added Makefile, changed some bugs in UQWordiply 1617PM 070323
+
+Index: Makefile
+ Makefile |    4 ++++
+ 1 file changed, 4 insertions(+)
+Index: UQWordiply.c
+ UQWordiply.c |    6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+------------------------------------------------------------------------
+r7 | s4716841 | 2023-03-07 17:08:09 +1000 (Tue, 07 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/UQWordiply.c
+
+added function to test if user input contains numbers or space
+
+Index: UQWordiply.c
+ UQWordiply.c |   35 +++++++++++++++++++++++++++++------
+ 1 file changed, 29 insertions(+), 6 deletions(-)
+
+------------------------------------------------------------------------
+r11 | s4716841 | 2023-03-12 18:31:08 +1000 (Sun, 12 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/UQWordiply.c
+
+added function to see if user keyed in any commands
+
+Index: UQWordiply.c
+ UQWordiply.c |   38 +++++++++++++++++++++++++++-----------
+ 1 file changed, 27 insertions(+), 11 deletions(-)
+
+------------------------------------------------------------------------
+r12 | s4716841 | 2023-03-12 19:48:46 +1000 (Sun, 12 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/UQWordiply.c
+
+Made changes to the function that tests user command input, full of bion that tests user command input, full of bugs, cant use, 120323 1948PM
+
+Index: UQWordiply.c
+ UQWordiply.c |   43 +++++++++++++++++++++++++++++++++++--------
+ 1 file changed, 35 insertions(+), 8 deletions(-)
+
+------------------------------------------------------------------------
+r13 | s4716841 | 2023-03-13 12:16:38 +1000 (Mon, 13 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/UQWordiply.c
+
+fixed some bugs in checkString and checkCommand 130223 1216PM
+
+Index: UQWordiply.c
+ UQWordiply.c |   39 +++++++++++++++++++++++++--------------
+ 1 file changed, 25 insertions(+), 14 deletions(-)
+
+------------------------------------------------------------------------
+r14 | s4716841 | 2023-03-13 15:43:05 +1000 (Mon, 13 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/UQWordiply.c
+
+Added function to check through dictionary, don't work yet, but why? 2130323 1546PM
+
+Index: UQWordiply.c
+ UQWordiply.c |   88 ++++++++++++++++++++++++++++++++++++++++++++++-------------
+ 1 file changed, 69 insertions(+), 19 deletions(-)
+
+------------------------------------------------------------------------
+r15 | s4716841 | 2023-03-14 11:05:08 +1000 (Tue, 14 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/UQWordiply.c
+
+Updated checkDictionary, resulting in Segfault 140323 1100AM
+
+Index: UQWordiply.c
+ UQWordiply.c |   27 ++++++++++++++++++---------
+ 1 file changed, 18 insertions(+), 9 deletions(-)
+
+------------------------------------------------------------------------
+r16 | s4716841 | 2023-03-14 12:18:29 +1000 (Tue, 14 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/UQWordiply.c
+
+SEGFAULTS
+
+Index: UQWordiply.c
+ UQWordiply.c |   52 ++++++++++++++++++++++++++--------------------------
+ 1 file changed, 26 insertions(+), 26 deletions(-)
+
+------------------------------------------------------------------------
+r17 | s4716841 | 2023-03-14 19:51:08 +1000 (Tue, 14 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/UQWordiply.c
+
+SEGFAULT NOT FIXED WHY
+
+Index: UQWordiply.c
+ UQWordiply.c |   35 ++++++++++++++++++++++++++++-------
+ 1 file changed, 28 insertions(+), 7 deletions(-)
+
+------------------------------------------------------------------------
+r18 | s4716841 | 2023-03-15 20:24:21 +1000 (Wed, 15 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/Makefile
+   M /trunk/a1/UQWordiply.c
+
+changed checkDictionary, added readDictionary 150323 0824PM
+
+Index: Makefile
+ Makefile |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Index: UQWordiply.c
+ UQWordiply.c |  135 ++++++++++++++++++++++++++++++++++++++---------------------
+ 1 file changed, 89 insertions(+), 46 deletions(-)
+
+------------------------------------------------------------------------
+r19 | s4716841 | 2023-03-16 00:54:52 +1000 (Thu, 16 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/UQWordiply.c
+
+Updated checkDictionary() function, has a problem in strcmp, no idea why. 160323 12:55AM
+
+Index: UQWordiply.c
+ UQWordiply.c |   73 +++++++++++++++++++++++++----------------------------------
+ 1 file changed, 32 insertions(+), 41 deletions(-)
+
+------------------------------------------------------------------------
+r20 | s4716841 | 2023-03-17 00:14:56 +1000 (Fri, 17 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/UQWordiply.c
+
+Changed approach after practical, created new function to fetch all words into array, and function to remove all special characters 170323 12:15AM
+
+Index: UQWordiply.c
+ UQWordiply.c |  306 +++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 154 insertions(+), 152 deletions(-)
+
+------------------------------------------------------------------------
+r21 | s4716841 | 2023-03-20 00:36:28 +1000 (Mon, 20 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/Makefile
+   A /trunk/a1/uqwordiply.c
+
+changed name from UQWordiply.c to uqwordiply.c, just realised that I have been using the wrong name all along. If you want to check the earlier commit records please check the ones under UQWordiply.c
+
+Index: Makefile
+ Makefile |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Index: uqwordiply.c
+ uqwordiply.c |  275 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 275 insertions(+)
+
+------------------------------------------------------------------------
+r22 | s4716841 | 2023-03-20 00:57:20 +1000 (Mon, 20 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+Updated playGame() function to display error message when word incorrect 200323 12:57AM
+
+Index: uqwordiply.c
+ uqwordiply.c |    7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+------------------------------------------------------------------------
+r23 | s4716841 | 2023-03-20 15:58:19 +1000 (Mon, 20 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+added checkPath(), checkLen(), checkStart(), modified checkCommand() to fix bugs 200323 1600PM
+
+Index: uqwordiply.c
+ uqwordiply.c |  164 +++++++++++++++++++++++++++++++++++++----------------------
+ 1 file changed, 105 insertions(+), 59 deletions(-)
+
+------------------------------------------------------------------------
+r24 | s4716841 | 2023-03-20 19:52:51 +1000 (Mon, 20 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+problem with playGame function, words never get right 200323 2000PM
+
+Index: uqwordiply.c
+ uqwordiply.c |   78 +++++++++++++++++++++++++++++++++++------------------------
+ 1 file changed, 47 insertions(+), 31 deletions(-)
+
+------------------------------------------------------------------------
+r25 | s4716841 | 2023-03-20 21:25:32 +1000 (Mon, 20 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+fixed bugs with playGame, added checkInput function 200323 2130PM
+
+Index: uqwordiply.c
+ uqwordiply.c |   81 +++++++++++++++++++++++++++++++----------------------------
+ 1 file changed, 43 insertions(+), 38 deletions(-)
+
+------------------------------------------------------------------------
+r26 | s4716841 | 2023-03-20 23:08:49 +1000 (Mon, 20 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+updated checkInput function to check for strstr, if word = input, and shortened the if else statement 200323 2310PM
+
+Index: uqwordiply.c
+ uqwordiply.c |  162 +++++++++++++++++++++++++++++++++--------------------------
+ 1 file changed, 91 insertions(+), 71 deletions(-)
+
+------------------------------------------------------------------------
+r27 | s4716841 | 2023-03-21 12:38:20 +1000 (Tue, 21 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+Added and tested a function checkLongest() that checks the longest word possible 210323 1240PM
+
+Index: uqwordiply.c
+ uqwordiply.c |   47 ++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 46 insertions(+), 1 deletion(-)
+
+------------------------------------------------------------------------
+r28 | s4716841 | 2023-03-21 17:43:20 +1000 (Tue, 21 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+added checkUserInputArray function, but does not add the last element 210323 1800PM
+
+Index: uqwordiply.c
+ uqwordiply.c |  108 ++++++++++++++++++++++++++++++++++++++++++++++++-----------
+ 1 file changed, 89 insertions(+), 19 deletions(-)
+
+------------------------------------------------------------------------
+r29 | s4716841 | 2023-03-21 18:43:57 +1000 (Tue, 21 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+updated checkUserInputArray to make it work, now updating playGame(), 210323 1845PM
+
+Index: uqwordiply.c
+ uqwordiply.c |  447 ++++++++++++++++++++++++++++++++---------------------------
+ 1 file changed, 248 insertions(+), 199 deletions(-)
+
+------------------------------------------------------------------------
+r30 | s4716841 | 2023-03-21 19:01:39 +1000 (Tue, 21 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+fixed issues with playGame 210323 1900PM
+
+Index: uqwordiply.c
+ uqwordiply.c |   17 ++++++++++-------
+ 1 file changed, 10 insertions(+), 7 deletions(-)
+
+------------------------------------------------------------------------
+r31 | s4716841 | 2023-03-21 22:28:52 +1000 (Tue, 21 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+Tried upadating --dictionary command, but does not work 210323 2239PM
+
+Index: uqwordiply.c
+ uqwordiply.c |  422 +++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 212 insertions(+), 210 deletions(-)
+
+------------------------------------------------------------------------
+r32 | s4716841 | 2023-03-22 15:38:18 +1000 (Wed, 22 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+Updated playGame() function,added new global variable called gameFinished() to solve the issue on ctrl D terminating the entire program, working in progress 220323 1540PM
+
+Index: uqwordiply.c
+ uqwordiply.c |  467 ++++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 238 insertions(+), 229 deletions(-)
+
+------------------------------------------------------------------------
+r33 | s4716841 | 2023-03-22 16:40:19 +1000 (Wed, 22 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+started changing the entire program to meet the style requirement 220323 1640PM
+
+Index: uqwordiply.c
+ uqwordiply.c |  474 ++++++++++++++++++++++++++++++-----------------------------
+ 1 file changed, 245 insertions(+), 229 deletions(-)
+
+------------------------------------------------------------------------
+r34 | s4716841 | 2023-03-22 17:20:40 +1000 (Wed, 22 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+Updated code style, renamed all the function names/ added more comments/ added more line spaces
+
+Index: uqwordiply.c
+ uqwordiply.c |  300 +++++++++++++++++++++++------------------------------------
+ 1 file changed, 120 insertions(+), 180 deletions(-)
+
+------------------------------------------------------------------------
+r35 | s4716841 | 2023-03-22 18:01:38 +1000 (Wed, 22 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+continued working on the changing of style, attempting to cut down the size of playGame() 220323 1800PM
+
+Index: uqwordiply.c
+ uqwordiply.c |  134 +++++++++++++++++++++++++++++++----------------------------
+ 1 file changed, 71 insertions(+), 63 deletions(-)
+
+------------------------------------------------------------------------
+r36 | s4716841 | 2023-03-22 18:35:54 +1000 (Wed, 22 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+Commited to keep my progress, just in case if any funny segfaults appera again like commit 35, continue working to cut down the size of play_game(), 220323 1835PM
+
+Index: uqwordiply.c
+ uqwordiply.c |  426 +++++++++++++++++++++++++++++------------------------------
+ 1 file changed, 212 insertions(+), 214 deletions(-)
+
+------------------------------------------------------------------------
+r37 | s4716841 | 2023-03-22 21:56:03 +1000 (Wed, 22 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+Finished all style checking, able to compile, caable to be compiled, ready to submit as Version 1.0 220323 2155PM
+
+Index: uqwordiply.c
+ uqwordiply.c |   96 +++++++++++++++++++++++++++--------------------------------
+ 1 file changed, 45 insertions(+), 51 deletions(-)
+
+------------------------------------------------------------------------
+r38 | s4716841 | 2023-03-22 22:34:45 +1000 (Wed, 22 Mar 2023) | 1 line
+Changed paths:
+   D /trunk/a1/UQWordiply.c
+   D /trunk/a1/test.c
+   A /trunk/a1/toolHistory.txt
+   M /trunk/a1/uqwordiply.c
+
+Updated the comments of uqwordiply.c adding more info, added toolHistory.txt recording my interactions with chatGPT, deleted the older UQWordiply.c and test.c 220323 22:35PM
+
+Index: UQWordiply.c (deleted)
+Index: test.c (deleted)
+Index: toolHistory.txt
+ toolHistory.txt |  114 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 114 insertions(+)
+Index: uqwordiply.c
+ uqwordiply.c |  137 ++++++++++++++++++++++++++++++++++-------------------------
+ 1 file changed, 80 insertions(+), 57 deletions(-)
+
+------------------------------------------------------------------------
+r41 | s4716841 | 2023-03-23 20:23:27 +1000 (Thu, 23 Mar 2023) | 1 line
+Changed paths:
+   M /trunk/a1/uqwordiply.c
+
+Updated check_input function, changed usage of scanf in play_game to fgets in order to detect if the user entered an empty input, this update to Ver 1.2 should be final 230323 2025PM
+
+Index: uqwordiply.c
+ uqwordiply.c |   28 ++++++++++++++++++++--------
+ 1 file changed, 20 insertions(+), 8 deletions(-)
+
+------------------------------------------------------------------------
